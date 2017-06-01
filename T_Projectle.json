@@ -1,0 +1,47 @@
+[
+	{
+		"Name": "Rifle00",
+		"RowName": "Rifle00",
+		"Type": "Ammo",
+		"Ammo":
+		{
+			"BaseDamage": 30,
+			"MinDamage": 20,
+			"DamInRadius": 0,
+			"DamOutRadius": 0,
+			"DamFalloff": 1,
+			"MaxSpeed": 40000,
+			"initSpeed": 60000
+		}
+	},
+	{
+		"Name": "Sniper00",
+		"RowName": "Sniper00",
+		"Type": "Ammo",
+		"Ammo":
+		{
+			"BaseDamage": 100,
+			"MinDamage": 100,
+			"DamInRadius": 0,
+			"DamOutRadius": 0,
+			"DamFalloff": 1,
+			"MaxSpeed": 50000,
+			"initSpeed": 70000
+		}
+	},
+	{
+		"Name": "Pistal00",
+		"RowName": "Pistal00",
+		"Type": "Ammo",
+		"Ammo":
+		{
+			"BaseDamage": 20,
+			"MinDamage": 20,
+			"DamInRadius": 0,
+			"DamOutRadius": 0,
+			"DamFalloff": 1,
+			"MaxSpeed": 30000,
+			"initSpeed": 40000
+		}
+	}
+]

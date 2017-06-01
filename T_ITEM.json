@@ -1,0 +1,162 @@
+[
+	{
+		"Name": "M4",
+		"RowName": "M4",
+		"ItemType": "Gun",
+		"PickType": "hand",
+		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/GUN_Rifle.GUN_Rifle_C'",
+		"Gun":
+		{
+			"CurreentEnergy": 30,
+			"ClipSize": 30,
+			"CostOne": 1,
+			"WeaponType": "Rifle",
+			"EquipSocketName": "WeaponHold",
+			"UnEquipSocketName": "Back",
+			"CoolTime": 0.10000000149011612,
+			"FireAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Fire_Rifle_W.Fire_Rifle_W'",
+			"ReloadAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Hip_W.Reload_Rifle_Hip_W'",
+			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Rifle_Reload_1_Montage.Rifle_Reload_1_Montage'",
+			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Rifle00.PJ_Rifle00_C'",
+			"AimWidget": "None",
+			"Components":
+			{
+				"Fire1":
+				{
+					"ComponentType": "GunSight",
+					"GunSight":
+					{
+						"CameraFIeld": 60
+					}
+				}
+			},
+			"CanFire?": true
+		},
+		"Effect":
+		{
+			"AddEnergy": 0,
+			"AddHp": 0
+		},
+		"ItemImage": "None",
+		"CanPickup": true,
+		"CanTrigger": true
+	},
+	{
+		"Name": "Sniper",
+		"RowName": "Sniper",
+		"ItemType": "Gun",
+		"PickType": "hand",
+		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/GUN_Sniper.GUN_Sniper_C'",
+		"Gun":
+		{
+			"CurreentEnergy": 10,
+			"ClipSize": 10,
+			"CostOne": 3,
+			"WeaponType": "Rifle",
+			"EquipSocketName": "WeaponHold",
+			"UnEquipSocketName": "Back1",
+			"CoolTime": 1,
+			"FireAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Fire_SniperRifle_W.Fire_SniperRifle_W'",
+			"ReloadAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Reload_SniperRifle_Hip_W.Reload_SniperRifle_Hip_W'",
+			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Reload_Rifle_Hip_Montage.Reload_Rifle_Hip_Montage'",
+			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Sniper00.PJ_Sniper00_C'",
+			"AimWidget": "None",
+			"Components":
+			{
+				"Fire1":
+				{
+					"ComponentType": "GunSight",
+					"GunSight":
+					{
+						"CameraFIeld": 20
+					}
+				}
+			},
+			"CanFire?": true
+		},
+		"Effect":
+		{
+			"AddEnergy": 0,
+			"AddHp": 0
+		},
+		"ItemImage": "None",
+		"CanPickup": true,
+		"CanTrigger": true
+	},
+	{
+		"Name": "Pistal",
+		"RowName": "Pistal",
+		"ItemType": "Gun",
+		"PickType": "Auto",
+		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/GUN_Pistal.GUN_Pistal_C'",
+		"Gun":
+		{
+			"CurreentEnergy": 15,
+			"ClipSize": 15,
+			"CostOne": 1,
+			"WeaponType": "Pistal",
+			"EquipSocketName": "WeaponHold",
+			"UnEquipSocketName": "Pistal",
+			"CoolTime": 0.30000001192092896,
+			"FireAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Fire_Pistol_W.Fire_Pistol_W'",
+			"ReloadAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Reload_Pistol_W.Reload_Pistol_W'",
+			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Reload_Rifle_Hip_Montage.Reload_Rifle_Hip_Montage'",
+			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Pistal00.PJ_Pistal00_C'",
+			"AimWidget": "None",
+			"Components":
+			{
+				"Fire1":
+				{
+					"ComponentType": "GunSight",
+					"GunSight":
+					{
+						"CameraFIeld": 70
+					}
+				}
+			},
+			"CanFire?": true
+		},
+		"Effect":
+		{
+			"AddEnergy": 0,
+			"AddHp": 0
+		},
+		"ItemImage": "None",
+		"CanPickup": true,
+		"CanTrigger": true
+	},
+	{
+		"Name": "Energy100",
+		"RowName": "Energy100",
+		"ItemType": "Effect",
+		"PickType": "Auto",
+		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/BPC_Engergy.BPC_Engergy_C'",
+		"Gun":
+		{
+			"CurreentEnergy": 0,
+			"ClipSize": 0,
+			"CostOne": 0,
+			"WeaponType": "None",
+			"EquipSocketName": "None",
+			"UnEquipSocketName": "None",
+			"CoolTime": 0,
+			"FireAnim": "None",
+			"ReloadAnim": "None",
+			"PlayerReloadAnim": "None",
+			"Projectle": "None",
+			"AimWidget": "None",
+			"Components":
+			{
+			},
+			"CanFire?": true
+		},
+		"Effect":
+		{
+			"AddEnergy": 100,
+			"AddHp": 0
+		},
+		"ItemImage": "None",
+		"CanPickup": true,
+		"CanTrigger": true
+	}
+]
