@@ -1,0 +1,26 @@
+[
+	{
+		"Name": "Default",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Player/T_Character.T_Character'",
+			"RowName": "Default"
+		},
+		"Mode": "Default",
+		"Energy": 100,
+		"Hp": 100,
+		"CaremaField": 90,
+		"WalpSpeed": 300,
+		"RunSpeed": 600,
+		"IsSprint?": false,
+		"isCrouching?": false,
+		"isEquipWeapon?": false,
+		"isCanFire?": true,
+		"KeyBInd":
+		{
+			"1": "Pistal",
+			"2": "Back",
+			"3": "Back1"
+		}
+	}
+]

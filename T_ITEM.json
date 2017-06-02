@@ -1,7 +1,11 @@
 [
 	{
 		"Name": "M4",
-		"RowName": "M4",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Pickup/T_Item.T_Item'",
+			"RowName": "M4"
+		},
 		"ItemType": "Gun",
 		"PickType": "hand",
 		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/GUN_Rifle.GUN_Rifle_C'",
@@ -16,7 +20,7 @@
 			"CoolTime": 0.10000000149011612,
 			"FireAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Fire_Rifle_W.Fire_Rifle_W'",
 			"ReloadAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Hip_W.Reload_Rifle_Hip_W'",
-			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Rifle_Reload_1_Montage.Rifle_Reload_1_Montage'",
+			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Reload_Rifle_Hip_Montage.Reload_Rifle_Hip_Montage'",
 			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Rifle00.PJ_Rifle00_C'",
 			"AimWidget": "None",
 			"Components":
@@ -39,11 +43,16 @@
 		},
 		"ItemImage": "None",
 		"CanPickup": true,
-		"CanTrigger": true
+		"CanTrigger": true,
+		"MemberVar_87": false
 	},
 	{
 		"Name": "Sniper",
-		"RowName": "Sniper",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Pickup/T_Item.T_Item'",
+			"RowName": "Sniper"
+		},
 		"ItemType": "Gun",
 		"PickType": "hand",
 		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/GUN_Sniper.GUN_Sniper_C'",
@@ -81,11 +90,16 @@
 		},
 		"ItemImage": "None",
 		"CanPickup": true,
-		"CanTrigger": true
+		"CanTrigger": true,
+		"MemberVar_87": false
 	},
 	{
 		"Name": "Pistal",
-		"RowName": "Pistal",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Pickup/T_Item.T_Item'",
+			"RowName": "Pistal"
+		},
 		"ItemType": "Gun",
 		"PickType": "Auto",
 		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/GUN_Pistal.GUN_Pistal_C'",
@@ -123,11 +137,16 @@
 		},
 		"ItemImage": "None",
 		"CanPickup": true,
-		"CanTrigger": true
+		"CanTrigger": true,
+		"MemberVar_87": false
 	},
 	{
 		"Name": "Energy100",
-		"RowName": "Energy100",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Pickup/T_Item.T_Item'",
+			"RowName": "Energy100"
+		},
 		"ItemType": "Effect",
 		"PickType": "Auto",
 		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/BPC_Engergy.BPC_Engergy_C'",
@@ -157,6 +176,7 @@
 		},
 		"ItemImage": "None",
 		"CanPickup": true,
-		"CanTrigger": true
+		"CanTrigger": true,
+		"MemberVar_87": false
 	}
 ]
