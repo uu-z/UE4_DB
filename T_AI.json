@@ -1,0 +1,92 @@
+[
+	{
+		"Name": "Zombie",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/AI/T_AI.T_AI'",
+			"RowName": "Zombie"
+		},
+		"BehaviorType": "Idle",
+		"Base":
+		{
+			"HP": 100,
+			"MaxHP": 100,
+			"MovementSpeed": 300
+		},
+		"Idle":
+		{
+			"idleType": "RandomLocation",
+			"MaxRandomLocation": 300,
+			"RandomDelay": 10
+		},
+		"BehaviourTree": "BehaviorTree'/Game/TPS/AI/AI_Behaviour.AI_Behaviour'",
+		"BlackBoard": "BlackboardData'/Game/TPS/AI/AI_Blackboard.AI_Blackboard'",
+		"BehaviorConfigs":
+		{
+			"Idle":
+			{
+				"BehaviorType": "Idle",
+				"MovementSpeed": 300,
+				"OnSightTriggers": [],
+				"LoseSightTriggers": [],
+				"TargetTags": [],
+				"MessageTriggers": [
+					{
+						"MessageTag": "Threat",
+						"BehavioTo": "Defend"
+					}
+				],
+				"DelayTrigger":
+				{
+					"Delay": 0,
+					"RandomDeviation": 0,
+					"BehaviorTo": "None"
+				},
+				"Animation": []
+			},
+			"Defend":
+			{
+				"BehaviorType": "Defend",
+				"MovementSpeed": 300,
+				"OnSightTriggers": [],
+				"LoseSightTriggers": [],
+				"TargetTags": [
+					"Player"
+				],
+				"MessageTriggers": [],
+				"DelayTrigger":
+				{
+					"Delay": 1,
+					"RandomDeviation": 1,
+					"BehaviorTo": "AttackMelee"
+				},
+				"Animation": []
+			},
+			"AttackMelee":
+			{
+				"BehaviorType": "AttackMelee",
+				"MovementSpeed": 300,
+				"OnSightTriggers": [],
+				"LoseSightTriggers": [],
+				"TargetTags": [
+					"Player"
+				],
+				"MessageTriggers": [],
+				"DelayTrigger":
+				{
+					"Delay": 0,
+					"RandomDeviation": 0,
+					"BehaviorTo": "None"
+				},
+				"Animation": [
+					"AnimMontage'/Game/TPS/Animations/Zombie_01/Animation/Zombie_Stand_Chase_3_Montage.Zombie_Stand_Chase_3_Montage'",
+					"AnimMontage'/Game/TPS/Animations/Zombie_01/Animation/Zombie_Shamble_Long_2_Montage.Zombie_Shamble_Long_2_Montage'"
+				]
+			}
+		},
+		"TransitionBind":
+		{
+			"AttackMelee": "Defend"
+		}
+	}
+]
