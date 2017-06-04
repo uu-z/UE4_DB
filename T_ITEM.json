@@ -1,16 +1,17 @@
 [
 	{
-		"Name": "M4",
+		"Name": "Rifle00",
 		"Row":
 		{
 			"DataTable": "DataTable'/Game/TPS/Pickup/T_Item.T_Item'",
-			"RowName": "M4"
+			"RowName": "Rifle00"
 		},
 		"ItemType": "Gun",
 		"PickType": "hand",
 		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/GUN_Rifle.GUN_Rifle_C'",
 		"Gun":
 		{
+			"Name": "NSLOCTEXT(\"[AF5CA3AE99419B4CD7ECD9A619D2AD41]\", \"C33E9A4FEE451879533A0B97F22545ED\", \"Rifle\")",
 			"CurreentEnergy": 30,
 			"ClipSize": 30,
 			"CostOne": 1,
@@ -18,8 +19,9 @@
 			"EquipSocketName": "WeaponHold",
 			"UnEquipSocketName": "Back",
 			"CoolTime": 0.10000000149011612,
-			"FireAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Fire_Rifle_W.Fire_Rifle_W'",
-			"ReloadAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Hip_W.Reload_Rifle_Hip_W'",
+			"Noise": 5000,
+			"FireAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Fire_Rifle_W.Fire_Rifle_W'",
+			"ReloadAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Hip_W.Reload_Rifle_Hip_W'",
 			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Reload_Rifle_Hip_Montage.Reload_Rifle_Hip_Montage'",
 			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Rifle00.PJ_Rifle00_C'",
 			"AimWidget": "None",
@@ -47,26 +49,28 @@
 		"MemberVar_87": false
 	},
 	{
-		"Name": "Sniper",
+		"Name": "Sniper00",
 		"Row":
 		{
 			"DataTable": "DataTable'/Game/TPS/Pickup/T_Item.T_Item'",
-			"RowName": "Sniper"
+			"RowName": "Sniper00"
 		},
 		"ItemType": "Gun",
 		"PickType": "hand",
 		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/GUN_Sniper.GUN_Sniper_C'",
 		"Gun":
 		{
-			"CurreentEnergy": 10,
-			"ClipSize": 10,
+			"Name": "NSLOCTEXT(\"[AF5CA3AE99419B4CD7ECD9A619D2AD41]\", \"1CC4F21AE54FA17756126FB192BE0425\", \"Sniper\")",
+			"CurreentEnergy": 15,
+			"ClipSize": 15,
 			"CostOne": 3,
 			"WeaponType": "Rifle",
 			"EquipSocketName": "WeaponHold",
 			"UnEquipSocketName": "Back1",
 			"CoolTime": 1,
-			"FireAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Fire_SniperRifle_W.Fire_SniperRifle_W'",
-			"ReloadAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Reload_SniperRifle_Hip_W.Reload_SniperRifle_Hip_W'",
+			"Noise": 10000,
+			"FireAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Fire_SniperRifle_W.Fire_SniperRifle_W'",
+			"ReloadAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Reload_SniperRifle_Hip_W.Reload_SniperRifle_Hip_W'",
 			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Reload_Rifle_Hip_Montage.Reload_Rifle_Hip_Montage'",
 			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Sniper00.PJ_Sniper00_C'",
 			"AimWidget": "None",
@@ -94,17 +98,18 @@
 		"MemberVar_87": false
 	},
 	{
-		"Name": "Pistal",
+		"Name": "Pistal00",
 		"Row":
 		{
 			"DataTable": "DataTable'/Game/TPS/Pickup/T_Item.T_Item'",
-			"RowName": "Pistal"
+			"RowName": "Pistal00"
 		},
 		"ItemType": "Gun",
 		"PickType": "Auto",
 		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/GUN_Pistal.GUN_Pistal_C'",
 		"Gun":
 		{
+			"Name": "NSLOCTEXT(\"[AF5CA3AE99419B4CD7ECD9A619D2AD41]\", \"C2078880B94227ABEA9941847107BE9D\", \"Pistal\")",
 			"CurreentEnergy": 15,
 			"ClipSize": 15,
 			"CostOne": 1,
@@ -112,8 +117,9 @@
 			"EquipSocketName": "WeaponHold",
 			"UnEquipSocketName": "Pistal",
 			"CoolTime": 0.30000001192092896,
-			"FireAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Fire_Pistol_W.Fire_Pistol_W'",
-			"ReloadAnim": "AnimSequence'/Game/TPS/MilitaryWeapSilver/Weapons/Animations/Reload_Pistol_W.Reload_Pistol_W'",
+			"Noise": 3000,
+			"FireAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Fire_Pistol_W.Fire_Pistol_W'",
+			"ReloadAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Reload_Pistol_W.Reload_Pistol_W'",
 			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Reload_Rifle_Hip_Montage.Reload_Rifle_Hip_Montage'",
 			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Pistal00.PJ_Pistal00_C'",
 			"AimWidget": "None",
@@ -152,6 +158,7 @@
 		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/BPC_Engergy.BPC_Engergy_C'",
 		"Gun":
 		{
+			"Name": "",
 			"CurreentEnergy": 0,
 			"ClipSize": 0,
 			"CostOne": 0,
@@ -159,6 +166,7 @@
 			"EquipSocketName": "None",
 			"UnEquipSocketName": "None",
 			"CoolTime": 0,
+			"Noise": 0,
 			"FireAnim": "None",
 			"ReloadAnim": "None",
 			"PlayerReloadAnim": "None",
@@ -173,6 +181,47 @@
 		{
 			"AddEnergy": 100,
 			"AddHp": 0
+		},
+		"ItemImage": "None",
+		"CanPickup": true,
+		"CanTrigger": true,
+		"MemberVar_87": false
+	},
+	{
+		"Name": "HP50",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Pickup/T_Item.T_Item'",
+			"RowName": "HP50"
+		},
+		"ItemType": "Effect",
+		"PickType": "Auto",
+		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/BPC_HP50.BPC_HP50_C'",
+		"Gun":
+		{
+			"Name": "",
+			"CurreentEnergy": 0,
+			"ClipSize": 0,
+			"CostOne": 0,
+			"WeaponType": "None",
+			"EquipSocketName": "None",
+			"UnEquipSocketName": "None",
+			"CoolTime": 0,
+			"Noise": 0,
+			"FireAnim": "None",
+			"ReloadAnim": "None",
+			"PlayerReloadAnim": "None",
+			"Projectle": "None",
+			"AimWidget": "None",
+			"Components":
+			{
+			},
+			"CanFire?": true
+		},
+		"Effect":
+		{
+			"AddEnergy": 0,
+			"AddHp": 50
 		},
 		"ItemImage": "None",
 		"CanPickup": true,

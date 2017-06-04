@@ -1,0 +1,28 @@
+[
+	{
+		"Name": "Zombie",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/AI/T_Spawner.T_Spawner'",
+			"RowName": "Zombie"
+		},
+		"SpawnType": "SpawnAI",
+		"SpawnActor": "None",
+		"SpawnAi": "BlueprintGeneratedClass'/Game/TPS/AI/AI_Zombie.AI_Zombie_C'",
+		"MaxNumber": 20,
+		"SpawnBetween": 2
+	},
+	{
+		"Name": "Enemy100",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/AI/T_Spawner.T_Spawner'",
+			"RowName": "Enemy100"
+		},
+		"SpawnType": "SpawnActor",
+		"SpawnActor": "BlueprintGeneratedClass'/Game/TPS/Pickup/BPC_Engergy.BPC_Engergy_C'",
+		"SpawnAi": "None",
+		"MaxNumber": 10,
+		"SpawnBetween": 5
+	}
+]
