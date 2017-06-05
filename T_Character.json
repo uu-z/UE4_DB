@@ -14,6 +14,7 @@
 		"CaremaField": 90,
 		"WalpSpeed": 300,
 		"RunSpeed": 600,
+		"CanMove?": false,
 		"isCrouching?": false,
 		"IsSprint?": false,
 		"isEquipWeapon?": false,
@@ -68,6 +69,6 @@
 				"MemberVar_87": false
 			}
 		},
-		"HUD": "WidgetBlueprintGeneratedClass'/Game/TPS/UI/WBP_ShooterHUD1.WBP_ShooterHUD1_C'"
+		"HUD": "WidgetBlueprintGeneratedClass'/Game/TPS/UI/HUD/Shooter/WBP_ShooterHUD1.WBP_ShooterHUD1_C'"
 	}
 ]

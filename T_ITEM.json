@@ -105,7 +105,7 @@
 			"RowName": "Pistal00"
 		},
 		"ItemType": "Gun",
-		"PickType": "Auto",
+		"PickType": "hand",
 		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/GUN_Pistal.GUN_Pistal_C'",
 		"Gun":
 		{
