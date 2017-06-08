@@ -3,22 +3,10 @@
 		"Name": "Default",
 		"Row":
 		{
-			"DataTable": "DataTable'/Game/TPS/Player/T_Character.T_Character'",
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Character.T_Character'",
 			"RowName": "Default"
 		},
-		"Mode": "Default",
-		"Energy": 100,
-		"MaxEnergy": 500,
-		"Hp": 60,
-		"MaxHp": 100,
-		"CaremaField": 90,
-		"WalpSpeed": 300,
-		"RunSpeed": 600,
-		"CanMove?": false,
-		"isCrouching?": false,
-		"IsSprint?": false,
-		"isEquipWeapon?": false,
-		"isCanFire?": true,
+		"State": "Default",
 		"KeyBInd":
 		{
 			"1": "Pistal",
@@ -31,7 +19,7 @@
 			{
 				"Row":
 				{
-					"DataTable": "DataTable'/Game/TPS/Pickup/T_Item.T_Item'",
+					"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Item.T_Item'",
 					"RowName": "Rifle00"
 				},
 				"ItemType": "None",
@@ -44,8 +32,6 @@
 					"ClipSize": 0,
 					"CostOne": 0,
 					"WeaponType": "None",
-					"EquipSocketName": "None",
-					"UnEquipSocketName": "None",
 					"CoolTime": 0,
 					"Noise": 0,
 					"FireAnim": "None",
@@ -60,15 +46,182 @@
 				},
 				"Effect":
 				{
-					"AddEnergy": 0,
-					"AddHp": 0
+					"Type": "None",
+					"FloatMap":
+					{
+					},
+					"IntMap":
+					{
+					},
+					"BoolMap":
+					{
+					}
 				},
 				"ItemImage": "None",
 				"CanPickup": true,
 				"CanTrigger": true,
-				"MemberVar_87": false
+				"SelfItemRef": "None",
+				"SelfWidgetRef": "None",
+				"SocketsMap":
+				{
+				}
+			},
+			"Sinperc00":
+			{
+				"Row":
+				{
+					"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Item.T_Item'",
+					"RowName": "Sniper00"
+				},
+				"ItemType": "None",
+				"PickType": "None",
+				"ItemClass": "None",
+				"Gun":
+				{
+					"Name": "",
+					"CurreentEnergy": 0,
+					"ClipSize": 0,
+					"CostOne": 0,
+					"WeaponType": "None",
+					"CoolTime": 0,
+					"Noise": 0,
+					"FireAnim": "None",
+					"ReloadAnim": "None",
+					"PlayerReloadAnim": "None",
+					"Projectle": "None",
+					"AimWidget": "None",
+					"Components":
+					{
+					},
+					"CanFire?": true
+				},
+				"Effect":
+				{
+					"Type": "None",
+					"FloatMap":
+					{
+					},
+					"IntMap":
+					{
+					},
+					"BoolMap":
+					{
+					}
+				},
+				"ItemImage": "None",
+				"CanPickup": true,
+				"CanTrigger": true,
+				"SelfItemRef": "None",
+				"SelfWidgetRef": "None",
+				"SocketsMap":
+				{
+				}
+			},
+			"Pistalc00":
+			{
+				"Row":
+				{
+					"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Item.T_Item'",
+					"RowName": "Pistal00"
+				},
+				"ItemType": "None",
+				"PickType": "None",
+				"ItemClass": "None",
+				"Gun":
+				{
+					"Name": "",
+					"CurreentEnergy": 0,
+					"ClipSize": 0,
+					"CostOne": 0,
+					"WeaponType": "None",
+					"CoolTime": 0,
+					"Noise": 0,
+					"FireAnim": "None",
+					"ReloadAnim": "None",
+					"PlayerReloadAnim": "None",
+					"Projectle": "None",
+					"AimWidget": "None",
+					"Components":
+					{
+					},
+					"CanFire?": true
+				},
+				"Effect":
+				{
+					"Type": "None",
+					"FloatMap":
+					{
+					},
+					"IntMap":
+					{
+					},
+					"BoolMap":
+					{
+					}
+				},
+				"ItemImage": "None",
+				"CanPickup": true,
+				"CanTrigger": true,
+				"SelfItemRef": "None",
+				"SelfWidgetRef": "None",
+				"SocketsMap":
+				{
+				}
 			}
 		},
-		"HUD": "WidgetBlueprintGeneratedClass'/Game/TPS/UI/HUD/Shooter/WBP_ShooterHUD1.WBP_ShooterHUD1_C'"
+		"HUD": "WidgetBlueprintGeneratedClass'/Game/TPS/UI/HUD/Shooter/WBP_ShooterHUD1.WBP_ShooterHUD1_C'",
+		"CanUse":
+		{
+			"Gun": true
+		},
+		"StateMaps":
+		{
+			"Default":
+			{
+				"BoolMap":
+				{
+					"CanFire?": true,
+					"CanControl?": true,
+					"CanInteraction?": true,
+					"CanFire1?": true
+				},
+				"FloatMap":
+				{
+					"CameraField": 90,
+					"WalkSpeed": 300,
+					"RunSpeed": 600,
+					"CurrentSpeed": 300
+				},
+				"IntMap":
+				{
+					"HP": 50,
+					"MaxHp": 100,
+					"Energy": 100,
+					"MaxEnergy": 500
+				}
+			},
+			"Interaction":
+			{
+				"BoolMap":
+				{
+					"CanControl?": false
+				},
+				"FloatMap":
+				{
+				},
+				"IntMap":
+				{
+				}
+			}
+		},
+		"BoolMap":
+		{
+		},
+		"FloatMap":
+		{
+		},
+		"IntMap":
+		{
+		}
 	}
 ]

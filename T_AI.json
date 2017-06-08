@@ -3,7 +3,7 @@
 		"Name": "Zombie",
 		"Row":
 		{
-			"DataTable": "DataTable'/Game/TPS/AI/T_AI.T_AI'",
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_AI.T_AI'",
 			"RowName": "Zombie"
 		},
 		"BehaviorType": "Idle",

@@ -3,7 +3,7 @@
 		"Name": "Zombie",
 		"Row":
 		{
-			"DataTable": "DataTable'/Game/TPS/AI/T_Spawner.T_Spawner'",
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Spawner.T_Spawner'",
 			"RowName": "Zombie"
 		},
 		"SpawnType": "SpawnAI",
@@ -16,7 +16,7 @@
 		"Name": "Enemy100",
 		"Row":
 		{
-			"DataTable": "DataTable'/Game/TPS/AI/T_Spawner.T_Spawner'",
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Spawner.T_Spawner'",
 			"RowName": "Enemy100"
 		},
 		"SpawnType": "SpawnActor",
@@ -24,5 +24,18 @@
 		"SpawnAi": "None",
 		"MaxNumber": 10,
 		"SpawnBetween": 5
+	},
+	{
+		"Name": "Hp100",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Spawner.T_Spawner'",
+			"RowName": "Hp100"
+		},
+		"SpawnType": "SpawnActor",
+		"SpawnActor": "BlueprintGeneratedClass'/Game/TPS/Pickup/BPC_HP50.BPC_HP50_C'",
+		"SpawnAi": "None",
+		"MaxNumber": 5,
+		"SpawnBetween": 1
 	}
 ]

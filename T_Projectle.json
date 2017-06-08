@@ -1,7 +1,11 @@
 [
 	{
 		"Name": "Rifle00",
-		"RowName": "Rifle00",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Projectle.T_Projectle'",
+			"RowName": "Rifle00"
+		},
 		"Type": "Ammo",
 		"Ammo":
 		{
@@ -9,14 +13,25 @@
 			"MinDamage": 20,
 			"DamInRadius": 0,
 			"DamOutRadius": 0,
-			"DamFalloff": 1,
+			"DamFalloff": 0,
 			"MaxSpeed": 40000,
 			"initSpeed": 60000
-		}
+		},
+		"ImpactMap":
+		{
+		},
+		"SoundMap":
+		{
+		},
+		"Gravity": 1
 	},
 	{
 		"Name": "Sniper00",
-		"RowName": "Sniper00",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Projectle.T_Projectle'",
+			"RowName": "Sniper00"
+		},
 		"Type": "Ammo",
 		"Ammo":
 		{
@@ -24,14 +39,25 @@
 			"MinDamage": 100,
 			"DamInRadius": 0,
 			"DamOutRadius": 0,
-			"DamFalloff": 1,
+			"DamFalloff": 0,
 			"MaxSpeed": 50000,
 			"initSpeed": 70000
-		}
+		},
+		"ImpactMap":
+		{
+		},
+		"SoundMap":
+		{
+		},
+		"Gravity": 1
 	},
 	{
 		"Name": "Pistal00",
-		"RowName": "Pistal00",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Projectle.T_Projectle'",
+			"RowName": "Pistal00"
+		},
 		"Type": "Ammo",
 		"Ammo":
 		{
@@ -39,9 +65,44 @@
 			"MinDamage": 20,
 			"DamInRadius": 0,
 			"DamOutRadius": 0,
-			"DamFalloff": 1,
+			"DamFalloff": 0,
 			"MaxSpeed": 30000,
 			"initSpeed": 40000
-		}
+		},
+		"ImpactMap":
+		{
+		},
+		"SoundMap":
+		{
+		},
+		"Gravity": 1
+	},
+	{
+		"Name": "Rifle01",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Projectle.T_Projectle'",
+			"RowName": "Rifle01"
+		},
+		"Type": "Ammo",
+		"Ammo":
+		{
+			"BaseDamage": 100,
+			"MinDamage": 100,
+			"DamInRadius": 0,
+			"DamOutRadius": 100,
+			"DamFalloff": 0,
+			"MaxSpeed": 20000,
+			"initSpeed": 10000
+		},
+		"ImpactMap":
+		{
+			"SurfaceType1": "ParticleSystem'/Game/BallisticsVFX/Particles/Impacts/Small-Medium-Large/EnergyShield/EnergyShield_impact_med.EnergyShield_impact_med'"
+		},
+		"SoundMap":
+		{
+			"SurfaceType1": "SoundCue'/Game/BallisticsVFX/SFX/Impacts/Electric_Impacts.Electric_Impacts'"
+		},
+		"Gravity": 3
 	}
 ]
