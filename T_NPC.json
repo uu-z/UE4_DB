@@ -1,0 +1,10 @@
+[
+	{
+		"Name": "Npc00",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_NPC.T_NPC'",
+			"RowName": "Npc00"
+		}
+	}
+]

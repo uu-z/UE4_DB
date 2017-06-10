@@ -1,0 +1,47 @@
+[
+	{
+		"Name": "0",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Level.T_Level'",
+			"RowName": "0"
+		},
+		"RequireExp": 0,
+		"Awards": []
+	},
+	{
+		"Name": "1",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Level.T_Level'",
+			"RowName": "1"
+		},
+		"RequireExp": 10000,
+		"Awards": [
+			{
+				"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Item.T_Item'",
+				"RowName": "SkillPoint1"
+			}
+		]
+	},
+	{
+		"Name": "2",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Level.T_Level'",
+			"RowName": "2"
+		},
+		"RequireExp": 20000,
+		"Awards": []
+	},
+	{
+		"Name": "3",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Level.T_Level'",
+			"RowName": "3"
+		},
+		"RequireExp": 30000,
+		"Awards": []
+	}
+]

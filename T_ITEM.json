@@ -15,17 +15,17 @@
 			"CurreentEnergy": 30,
 			"ClipSize": 30,
 			"CostOne": 1,
-			"WeaponType": "E MAX",
 			"CoolTime": 0.10000000149011612,
 			"Noise": 5000,
+			"WeaponType": "E MAX",
+			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Rifle00.PJ_Rifle00_C'",
 			"FireAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Fire_Rifle_W.Fire_Rifle_W'",
 			"ReloadAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Hip_W.Reload_Rifle_Hip_W'",
 			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Reload_Rifle_Hip_Montage.Reload_Rifle_Hip_Montage'",
-			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Rifle00.PJ_Rifle00_C'",
 			"AimWidget": "None",
 			"Components":
 			{
-				"Fire1":
+				"Fire1_Press":
 				{
 					"ComponentType": "GunSight",
 					"GunSight":
@@ -49,15 +49,124 @@
 			{
 			}
 		},
-		"ItemImage": "None",
-		"CanPickup": true,
-		"CanTrigger": true,
-		"SelfItemRef": "None",
-		"SelfWidgetRef": "None",
 		"SocketsMap":
 		{
 			"Equip": "WeaponHold",
 			"UnEquip": "Back1"
+		},
+		"ItemImage": "None",
+		"SelfWidgetRef": "None",
+		"BoolMap":
+		{
+		},
+		"State": "Default",
+		"StateMap":
+		{
+			"Default":
+			{
+				"BoolMap":
+				{
+					"CanPickUp?": true,
+					"CanTrigger?": true,
+					"WidgetVisibility": true,
+					"RenderCustom?": true
+				}
+			},
+			"Pickup":
+			{
+				"BoolMap":
+				{
+					"CanPickUp?": false,
+					"CanTrigger?": false,
+					"WidgetVisibility": false,
+					"RenderCustom?": false
+				}
+			}
+		}
+	},
+	{
+		"Name": "RIfle01",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Item.T_Item'",
+			"RowName": "RIfle01"
+		},
+		"ItemType": "Gun",
+		"PickType": "hand",
+		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/GUN/GUN_RIfle01.GUN_RIfle01_C'",
+		"Gun":
+		{
+			"Name": "",
+			"CurreentEnergy": 10,
+			"ClipSize": 10,
+			"CostOne": 1,
+			"CoolTime": 0.5,
+			"Noise": 10000,
+			"WeaponType": "None",
+			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Rifle01.PJ_Rifle01_C'",
+			"FireAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Fire_Rifle_W.Fire_Rifle_W'",
+			"ReloadAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Hip_W.Reload_Rifle_Hip_W'",
+			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Reload_Rifle_Hip_Montage.Reload_Rifle_Hip_Montage'",
+			"AimWidget": "None",
+			"Components":
+			{
+				"Fire1_Press":
+				{
+					"ComponentType": "GunSight",
+					"GunSight":
+					{
+						"CameraFIeld": 70
+					}
+				}
+			},
+			"CanFire?": true
+		},
+		"Effect":
+		{
+			"Type": "None",
+			"FloatMap":
+			{
+			},
+			"IntMap":
+			{
+			},
+			"BoolMap":
+			{
+			}
+		},
+		"SocketsMap":
+		{
+			"Equip": "WeaponHold",
+			"UnEquip": "Back"
+		},
+		"ItemImage": "None",
+		"SelfWidgetRef": "None",
+		"BoolMap":
+		{
+		},
+		"State": "Default",
+		"StateMap":
+		{
+			"Default":
+			{
+				"BoolMap":
+				{
+					"CanPickUp?": true,
+					"CanTrigger?": true,
+					"WidgetVisibility": true,
+					"RenderCustom?": true
+				}
+			},
+			"Pickup":
+			{
+				"BoolMap":
+				{
+					"CanPickUp?": false,
+					"CanTrigger?": false,
+					"WidgetVisibility": false,
+					"RenderCustom?": false
+				}
+			}
 		}
 	},
 	{
@@ -76,17 +185,17 @@
 			"CurreentEnergy": 15,
 			"ClipSize": 15,
 			"CostOne": 3,
-			"WeaponType": "E MAX",
 			"CoolTime": 1,
 			"Noise": 10000,
+			"WeaponType": "E MAX",
+			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Sniper00.PJ_Sniper00_C'",
 			"FireAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Fire_SniperRifle_W.Fire_SniperRifle_W'",
 			"ReloadAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Reload_SniperRifle_Hip_W.Reload_SniperRifle_Hip_W'",
 			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Reload_Rifle_Hip_Montage.Reload_Rifle_Hip_Montage'",
-			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Sniper00.PJ_Sniper00_C'",
 			"AimWidget": "None",
 			"Components":
 			{
-				"Fire1":
+				"Fire1_Press":
 				{
 					"ComponentType": "GunSight",
 					"GunSight":
@@ -110,15 +219,39 @@
 			{
 			}
 		},
-		"ItemImage": "None",
-		"CanPickup": true,
-		"CanTrigger": true,
-		"SelfItemRef": "None",
-		"SelfWidgetRef": "None",
 		"SocketsMap":
 		{
 			"Equip": "WeaponHold",
 			"UnEquip": "Back"
+		},
+		"ItemImage": "None",
+		"SelfWidgetRef": "None",
+		"BoolMap":
+		{
+		},
+		"State": "Default",
+		"StateMap":
+		{
+			"Default":
+			{
+				"BoolMap":
+				{
+					"CanPickUp?": true,
+					"CanTrigger?": true,
+					"WidgetVisibility": true,
+					"RenderCustom?": true
+				}
+			},
+			"Pickup":
+			{
+				"BoolMap":
+				{
+					"CanPickUp?": false,
+					"CanTrigger?": false,
+					"WidgetVisibility": false,
+					"RenderCustom?": false
+				}
+			}
 		}
 	},
 	{
@@ -137,17 +270,17 @@
 			"CurreentEnergy": 15,
 			"ClipSize": 15,
 			"CostOne": 0,
-			"WeaponType": "E MAX",
 			"CoolTime": 0.30000001192092896,
 			"Noise": 3000,
+			"WeaponType": "E MAX",
+			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Pistal00.PJ_Pistal00_C'",
 			"FireAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Fire_Pistol_W.Fire_Pistol_W'",
 			"ReloadAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Reload_Pistol_W.Reload_Pistol_W'",
 			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Reload_Rifle_Hip_Montage.Reload_Rifle_Hip_Montage'",
-			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Pistal00.PJ_Pistal00_C'",
 			"AimWidget": "None",
 			"Components":
 			{
-				"Fire1":
+				"Fire1_Press":
 				{
 					"ComponentType": "GunSight",
 					"GunSight":
@@ -171,15 +304,39 @@
 			{
 			}
 		},
-		"ItemImage": "None",
-		"CanPickup": true,
-		"CanTrigger": true,
-		"SelfItemRef": "None",
-		"SelfWidgetRef": "None",
 		"SocketsMap":
 		{
 			"Equip": "WeaponHold",
 			"UnEquip": "Pistal"
+		},
+		"ItemImage": "None",
+		"SelfWidgetRef": "None",
+		"BoolMap":
+		{
+		},
+		"State": "Default",
+		"StateMap":
+		{
+			"Default":
+			{
+				"BoolMap":
+				{
+					"CanPickUp?": true,
+					"CanTrigger?": true,
+					"WidgetVisibility": true,
+					"RenderCustom?": true
+				}
+			},
+			"Pickup":
+			{
+				"BoolMap":
+				{
+					"CanPickUp?": false,
+					"CanTrigger?": false,
+					"WidgetVisibility": false,
+					"RenderCustom?": false
+				}
+			}
 		}
 	},
 	{
@@ -198,13 +355,13 @@
 			"CurreentEnergy": 0,
 			"ClipSize": 0,
 			"CostOne": 0,
-			"WeaponType": "None",
 			"CoolTime": 0,
 			"Noise": 0,
+			"WeaponType": "None",
+			"Projectle": "None",
 			"FireAnim": "None",
 			"ReloadAnim": "None",
 			"PlayerReloadAnim": "None",
-			"Projectle": "None",
 			"AimWidget": "None",
 			"Components":
 			{
@@ -225,13 +382,37 @@
 			{
 			}
 		},
-		"ItemImage": "None",
-		"CanPickup": true,
-		"CanTrigger": true,
-		"SelfItemRef": "None",
-		"SelfWidgetRef": "None",
 		"SocketsMap":
 		{
+		},
+		"ItemImage": "None",
+		"SelfWidgetRef": "None",
+		"BoolMap":
+		{
+		},
+		"State": "Default",
+		"StateMap":
+		{
+			"Default":
+			{
+				"BoolMap":
+				{
+					"CanPickUp?": true,
+					"CanTrigger?": true,
+					"WidgetVisibility": true,
+					"RenderCustom?": true
+				}
+			},
+			"Pickup":
+			{
+				"BoolMap":
+				{
+					"CanPickUp?": false,
+					"CanTrigger?": false,
+					"WidgetVisibility": false,
+					"RenderCustom?": false
+				}
+			}
 		}
 	},
 	{
@@ -250,13 +431,89 @@
 			"CurreentEnergy": 0,
 			"ClipSize": 0,
 			"CostOne": 0,
-			"WeaponType": "None",
 			"CoolTime": 0,
 			"Noise": 0,
+			"WeaponType": "None",
+			"Projectle": "None",
 			"FireAnim": "None",
 			"ReloadAnim": "None",
 			"PlayerReloadAnim": "None",
+			"AimWidget": "None",
+			"Components":
+			{
+			},
+			"CanFire?": true
+		},
+		"Effect":
+		{
+			"Type": "Float",
+			"FloatMap":
+			{
+				"Hp": 50
+			},
+			"IntMap":
+			{
+			},
+			"BoolMap":
+			{
+			}
+		},
+		"SocketsMap":
+		{
+		},
+		"ItemImage": "None",
+		"SelfWidgetRef": "None",
+		"BoolMap":
+		{
+		},
+		"State": "Default",
+		"StateMap":
+		{
+			"Default":
+			{
+				"BoolMap":
+				{
+					"CanPickUp?": true,
+					"CanTrigger?": true,
+					"WidgetVisibility": true,
+					"RenderCustom?": true
+				}
+			},
+			"Pickup":
+			{
+				"BoolMap":
+				{
+					"CanPickUp?": false,
+					"CanTrigger?": false,
+					"WidgetVisibility": false,
+					"RenderCustom?": false
+				}
+			}
+		}
+	},
+	{
+		"Name": "SkillPoint1",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Item.T_Item'",
+			"RowName": "SkillPoint1"
+		},
+		"ItemType": "Effect",
+		"PickType": "Auto",
+		"ItemClass": "None",
+		"Gun":
+		{
+			"Name": "",
+			"CurreentEnergy": 0,
+			"ClipSize": 0,
+			"CostOne": 0,
+			"CoolTime": 0,
+			"Noise": 0,
+			"WeaponType": "None",
 			"Projectle": "None",
+			"FireAnim": "None",
+			"ReloadAnim": "None",
+			"PlayerReloadAnim": "None",
 			"AimWidget": "None",
 			"Components":
 			{
@@ -271,80 +528,43 @@
 			},
 			"IntMap":
 			{
-				"HP": 50
+				"SkillPoint": 1
 			},
 			"BoolMap":
 			{
 			}
 		},
-		"ItemImage": "None",
-		"CanPickup": true,
-		"CanTrigger": true,
-		"SelfItemRef": "None",
-		"SelfWidgetRef": "None",
 		"SocketsMap":
 		{
-		}
-	},
-	{
-		"Name": "RIfle01",
-		"Row":
-		{
-			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_Item.T_Item'",
-			"RowName": "RIfle01"
 		},
-		"ItemType": "Gun",
-		"PickType": "hand",
-		"ItemClass": "BlueprintGeneratedClass'/Game/TPS/Pickup/GUN/GUN_RIfle01.GUN_RIfle01_C'",
-		"Gun":
+		"ItemImage": "None",
+		"SelfWidgetRef": "None",
+		"BoolMap":
 		{
-			"Name": "",
-			"CurreentEnergy": 10,
-			"ClipSize": 10,
-			"CostOne": 1,
-			"WeaponType": "None",
-			"CoolTime": 0.5,
-			"Noise": 10000,
-			"FireAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Fire_Rifle_W.Fire_Rifle_W'",
-			"ReloadAnim": "AnimSequence'/Game/TPS/Static/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Hip_W.Reload_Rifle_Hip_W'",
-			"PlayerReloadAnim": "AnimMontage'/Game/TPS/Player/Reload_Rifle_Hip_Montage.Reload_Rifle_Hip_Montage'",
-			"Projectle": "BlueprintGeneratedClass'/Game/TPS/Pickup/PJ/PJ_Rifle01.PJ_Rifle01_C'",
-			"AimWidget": "None",
-			"Components":
+		},
+		"State": "Default",
+		"StateMap":
+		{
+			"Default":
 			{
-				"Fire1":
+				"BoolMap":
 				{
-					"ComponentType": "GunSight",
-					"GunSight":
-					{
-						"CameraFIeld": 70
-					}
+					"CanPickUp?": true,
+					"CanTrigger?": true,
+					"WidgetVisibility": true,
+					"RenderCustom?": true
 				}
 			},
-			"CanFire?": true
-		},
-		"Effect":
-		{
-			"Type": "None",
-			"FloatMap":
+			"Pickup":
 			{
-			},
-			"IntMap":
-			{
-			},
-			"BoolMap":
-			{
+				"BoolMap":
+				{
+					"CanPickUp?": false,
+					"CanTrigger?": false,
+					"WidgetVisibility": false,
+					"RenderCustom?": false
+				}
 			}
-		},
-		"ItemImage": "None",
-		"CanPickup": true,
-		"CanTrigger": true,
-		"SelfItemRef": "None",
-		"SelfWidgetRef": "None",
-		"SocketsMap":
-		{
-			"Equip": "WeaponHold",
-			"UnEquip": "Back"
 		}
 	}
 ]

@@ -1,0 +1,76 @@
+[
+	{
+		"Name": "Default",
+		"Row":
+		{
+			"DataTable": "DataTable'/Game/TPS/Blueprints/DataTable/T_UIManager.T_UIManager'",
+			"RowName": "Default"
+		},
+		"State": "Default",
+		"UpdateMaps":
+		{
+		},
+		"ListMap":
+		{
+		},
+		"StateMap":
+		{
+			"Default":
+			{
+				"ListMap":
+				{
+					"InventoryButton": 0
+				},
+				"BindSwitch":
+				{
+					"InventoryButton": "InventorySwicher"
+				},
+				"BindHorizontal":
+				{
+					"InventorySwicher": "TopTab"
+				},
+				"LeftMap":
+				{
+				},
+				"RightMap":
+				{
+				},
+				"UIMap":
+				{
+				}
+			}
+		},
+		"UIMap":
+		{
+			"InventoryButton":
+			{
+				"Name": "InventoryButton",
+				"isActive?": false
+			},
+			"SkillButton":
+			{
+				"Name": "SkillButton",
+				"isActive?": false
+			}
+		},
+		"SwicherMap":
+		{
+		},
+		"ButtonMap":
+		{
+		},
+		"HorizontalMap":
+		{
+		},
+		"ParentMap":
+		{
+		},
+		"CurrentContainer": "TopTab",
+		"BindSwich":
+		{
+		},
+		"BindHorizontal":
+		{
+		}
+	}
+]

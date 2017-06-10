@@ -31,13 +31,13 @@
 					"CurreentEnergy": 0,
 					"ClipSize": 0,
 					"CostOne": 0,
-					"WeaponType": "None",
 					"CoolTime": 0,
 					"Noise": 0,
+					"WeaponType": "None",
+					"Projectle": "None",
 					"FireAnim": "None",
 					"ReloadAnim": "None",
 					"PlayerReloadAnim": "None",
-					"Projectle": "None",
 					"AimWidget": "None",
 					"Components":
 					{
@@ -57,16 +57,20 @@
 					{
 					}
 				},
-				"ItemImage": "None",
-				"CanPickup": true,
-				"CanTrigger": true,
-				"SelfItemRef": "None",
-				"SelfWidgetRef": "None",
 				"SocketsMap":
+				{
+				},
+				"ItemImage": "None",
+				"SelfWidgetRef": "None",
+				"BoolMap":
+				{
+				},
+				"State": "None",
+				"StateMap":
 				{
 				}
 			},
-			"Sinperc00":
+			"Sniper00":
 			{
 				"Row":
 				{
@@ -82,13 +86,13 @@
 					"CurreentEnergy": 0,
 					"ClipSize": 0,
 					"CostOne": 0,
-					"WeaponType": "None",
 					"CoolTime": 0,
 					"Noise": 0,
+					"WeaponType": "None",
+					"Projectle": "None",
 					"FireAnim": "None",
 					"ReloadAnim": "None",
 					"PlayerReloadAnim": "None",
-					"Projectle": "None",
 					"AimWidget": "None",
 					"Components":
 					{
@@ -108,16 +112,20 @@
 					{
 					}
 				},
-				"ItemImage": "None",
-				"CanPickup": true,
-				"CanTrigger": true,
-				"SelfItemRef": "None",
-				"SelfWidgetRef": "None",
 				"SocketsMap":
+				{
+				},
+				"ItemImage": "None",
+				"SelfWidgetRef": "None",
+				"BoolMap":
+				{
+				},
+				"State": "None",
+				"StateMap":
 				{
 				}
 			},
-			"Pistalc00":
+			"Pistal00":
 			{
 				"Row":
 				{
@@ -133,13 +141,13 @@
 					"CurreentEnergy": 0,
 					"ClipSize": 0,
 					"CostOne": 0,
-					"WeaponType": "None",
 					"CoolTime": 0,
 					"Noise": 0,
+					"WeaponType": "None",
+					"Projectle": "None",
 					"FireAnim": "None",
 					"ReloadAnim": "None",
 					"PlayerReloadAnim": "None",
-					"Projectle": "None",
 					"AimWidget": "None",
 					"Components":
 					{
@@ -159,12 +167,16 @@
 					{
 					}
 				},
-				"ItemImage": "None",
-				"CanPickup": true,
-				"CanTrigger": true,
-				"SelfItemRef": "None",
-				"SelfWidgetRef": "None",
 				"SocketsMap":
+				{
+				},
+				"ItemImage": "None",
+				"SelfWidgetRef": "None",
+				"BoolMap":
+				{
+				},
+				"State": "None",
+				"StateMap":
 				{
 				}
 			}
@@ -183,19 +195,20 @@
 					"CanFire?": true,
 					"CanControl?": true,
 					"CanInteraction?": true,
-					"CanFire1?": true
+					"CanFire1?": true,
+					"isShowInfoWidget?": true
 				},
 				"FloatMap":
 				{
 					"CameraField": 90,
 					"WalkSpeed": 300,
 					"RunSpeed": 600,
-					"CurrentSpeed": 300
+					"CurrentSpeed": 300,
+					"Hp": 50,
+					"MaxHp": 100
 				},
 				"IntMap":
 				{
-					"HP": 50,
-					"MaxHp": 100,
 					"Energy": 100,
 					"MaxEnergy": 500
 				}
@@ -204,7 +217,8 @@
 			{
 				"BoolMap":
 				{
-					"CanControl?": false
+					"CanControl?": false,
+					"isShowInfoWidget?": false
 				},
 				"FloatMap":
 				{
